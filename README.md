@@ -1,5 +1,7 @@
 Név: Biró Zoltán Krisztián
+
 Neptun kód: OAP7P0
+
 Tantárgy: Szkript nyelvek
 
 --

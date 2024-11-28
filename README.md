@@ -15,10 +15,18 @@ A Caesar kódoló ebben az esetben a betűket kicséréli az abc tíz poziciój�
 A program egy fő main részből áll.
 
 A main részei:
-caesar_cipher -> A Ceasar kódolónál itt tudjuk megadni, az eltolás értékét és ez végzi el a későbbiekben magát a titkosítást.
-BzKgenerate_password -> A bekért adatok alapján legenerálja a jelszót
-BzK_generate_and_display() ->  Megjeleníti a legenerált jelszót
-BzK_encrypt_and_display() -> Megjeleníti a titkosított jelszót
+caesar_cipher ->
+A Ceasar kódolónál itt tudjuk megadni, az eltolás értékét és ez végzi el a későbbiekben magát a titkosítást.
+BzKgenerate_password ->
+A bekért adatok alapján legenerálja a jelszót
+Ellenőrzi a jelszó megfelelő hosszát
+BzK_generate_and_display() ->
+Definiálja a generáláshoz szükséges változókat
+Megjeleníti a legenerált jelszót
+Hibaüzenetett ad, ha nem számot adunk meg
+BzK_encrypt_and_display() ->
+Megjeleníti a titkosított jelszót
+Hibaüzenetett ad ha még nincs jelszavunk.
 
 A program további része, az ablak megjelenítésére szolgál illetve az adatok bekérésére.
 
